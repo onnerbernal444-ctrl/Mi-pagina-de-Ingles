@@ -1,0 +1,46 @@
+<html>
+<head>
+       <title>Acerca de Nosotros</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <h1>Inicia sesion</h1>
+        <nav class="nav-buttons">
+            <a href="index.html" class="btn">Inicio</a>
+              </nav>
+    </header>
+
+    <div class="login-container">
+        <div class="login-box">
+            <h2>¡Bienvenido!</h2>
+            <p>Ingresa tus datos para acceder a la plataforma</p>
+            
+            <form action="/login" method="POST">
+                <div class="input-group">
+                    <label for="username">Usuario o Correo</label>
+                    <input type="text" id="username" name="username" placeholder="Ingresa tu Correo" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                </div>
+                
+                <div class="forgot-pass">
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+                
+                <button type="submit" class="btn-login">Iniciar Sesión</button>
+            </form>
+            
+            <div class="login-footer">
+                <p>¿No tienes una cuenta? <a href="#">Regístrate aquí</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+</html>

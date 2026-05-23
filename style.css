@@ -1,0 +1,245 @@
+     {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 800px; 
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slider-frame {
+    display: flex;
+    width: 400%;     animation: slide-animation 16s infinite ease-in-out;
+}
+
+.slide {
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+
+@keyframes slide-animation {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    
+    25% { transform: translateX(-25%); }
+    45% { transform: translateX(-25%); }
+    
+    50% { transform: translateX(-50%); }
+    70% { transform: translateX(-50%); }
+    
+    75% { transform: translateX(-75%); }
+    95% { transform: translateX(-75%); }
+    
+    100% { transform: translateX(0); }
+}
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+header {
+    background: linear-gradient(135deg, #1e293b, #0f172a); /* Fondo moderno con degradado profundo */
+    color: blue;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra suave para darle profundidad */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    background: linear-gradient(45deg, #ffffff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hace que el título tenga un sutil degradado plateado */
+margin-bottom: 25px;
+}
+
+/* Contenedor de los botones */
+.nav-buttons {
+    display: flex;
+    gap: 20px; /* Más espacio entre botones */
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+/* El nuevo diseño estilizado de los botones */
+.btn {
+   display: inline-block;
+    color: #ffffff; /* Texto completamente blanco */
+    text-decoration: none; 
+    background-color: #334155; /* Un gris azulado elegante y visible */
+    padding: 15px 30px;
+    border: 1px solid #475569; /* Borde un poco más claro para dar relieve */
+    border-radius: 30px; /* Bordes redondeados estilo cápsula */
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Animación suave */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Sombra para que resalten del fondo */
+}
+
+/* Efecto interactivo al pasar el mouse (Hover) */
+.btn:hover {
+    color: #ffffff;
+    background: #06b6d4; /* Cambia a un azul cian vibrante y moderno */
+    border-color: #22d3ee;
+    transform: translateY(-3px); /* El botón se eleva sutilmente */
+    box-shadow: 0 8px 20px rgba(6, 182, 212, 0.4); /* Resplandor brillante neón */
+    cursor: pointer;
+}
+
+/* Pequeño efecto de pulsación al hacer clic */
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(6, 182, 212, 0.2);
+}
+
+
+/* ==========================================
+   ESTILOS PARA LA PÁGINA DE INICIO DE SESIÓN
+   ========================================== */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #005088;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.login-box p {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #334155;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #005088;
+}
+
+.forgot-pass {
+    text-align: right;
+    margin-bottom: 24px;
+}
+
+.forgot-pass a {
+    color: #005088;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #005088;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #003366;
+}
+
+.login-footer {
+    margin-top: 24px;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.login-footer a {
+    color: #11caa0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
