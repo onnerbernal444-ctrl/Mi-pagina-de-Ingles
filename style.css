@@ -243,3 +243,18 @@ margin-bottom: 25px;
 .login-footer a:hover {
     text-decoration: underline;
 }
+
+/* Cuando la pantalla sea de 768px o menos (como un celular) */
+@media (max-width: 768px) {
+    /* Si tus imágenes se ven gigantes o se cortan */
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Si usas contenedores principales, haz que ocupen casi toda la pantalla del cel */
+    .contenedor, section {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
