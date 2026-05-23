@@ -259,6 +259,14 @@ margin-bottom: 25px;
     }
 /* --- ESTILOS EXCLUSIVOS PARA CELULARES --- */
 @media (max-width: 768px) {
+@media (max-width: 768px) {
+    /* Agrega esto justo al inicio del bloque @media */
+    body {
+        background-color: red !important;
+    }
+    
+    /* ... deja el resto del código igual ... */
+}
     
     /* 1. Arreglar la barra de navegación */
     nav, .navbar, header { 
