@@ -70,7 +70,7 @@ header h1 {
     display: inline-block;
     color: #ffffff; /* Texto completamente blanco */
     text-decoration: none; 
-    background-color: #334155; /* Un gris azulado elegante y visible */
+    background-color: pink; /* Un gris azulado elegante y visible */
     padding: 15px 30px;
     border: 1px solid #475569; /* Borde un poco más claro para dar relieve */
     border-radius: 30px; /* Bordes redondeados estilo cápsula */
