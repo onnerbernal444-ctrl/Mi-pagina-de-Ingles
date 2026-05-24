@@ -32,7 +32,7 @@ footer {
 }
 
 /
-    ENCABEZADO (HEADER) Y NAVEGACIÓN
+   2. ENCABEZADO (HEADER) Y NAVEGACIÓN
    header {
     background: linear-gradient(135deg, #1e293b, #0f172a);
     color: white;
@@ -63,7 +63,7 @@ header h1 {
     flex-wrap: wrap;
 }
 
-botones */
+/* El nuevo diseño estilizado de los botones */
 .btn {
     display: inline-block;
     color: #ffffff; /* Texto completamente blanco */
@@ -79,10 +79,10 @@ botones */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* Sombra para que resalten del fondo */
 }
 
-Efecto del mouse 
+/* Efecto interactivo al pasar el mouse (Hover) */
 .btn:hover {
-    color:  #ffffff;
-    background: #FFC0CB /* Cambia a un azul cian vibrante y moderno */
+    color: #ffffff;
+    background: #06b6d4; /* Cambia a un azul cian vibrante y moderno */
     border-color: #22d3ee;
     transform: translateY(-3px); /* El botón se eleva sutilmente */
     box-shadow: 0 8px 20px rgba(6, 182, 212, 0.4); /* Resplandor brillante neón */
