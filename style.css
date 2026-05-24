@@ -66,7 +66,7 @@ header h1 {
 botones */
 .btn {
     display: inline-block;
-    color: #ffffff; /* Texto completamente blanco */
+    color: pink /* Texto completamente blanco */
     text-decoration: none; 
     background-color: #334155; /* Un gris azulado elegante y visible */
     padding: 15px 30px;
