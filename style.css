@@ -68,9 +68,9 @@ header h1 {
 /* El nuevo diseño estilizado de los botones */
 .btn {
     display: inline-block;
-    color: #ffffff; /* Texto completamente blanco */
+    color: blue; /* Texto completamente blanco */
     text-decoration: none; 
-    background-color: pink; /* Un gris azulado elegante y visible */
+    background-color: lightblue; /* Un gris azulado elegante y visible */
     padding: 15px 30px;
     border: 1px solid #475569; /* Borde un poco más claro para dar relieve */
     border-radius: 30px; /* Bordes redondeados estilo cápsula */
