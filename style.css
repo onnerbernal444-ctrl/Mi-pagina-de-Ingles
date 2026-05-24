@@ -66,7 +66,7 @@ header h1 {
 botones */
 .btn {
     display: inline-block;
-    color: pink /* Texto completamente blanco */
+    color: #ffffff; /* Texto completamente blanco */
     text-decoration: none; 
     background-color: #334155; /* Un gris azulado elegante y visible */
     padding: 15px 30px;
@@ -81,8 +81,8 @@ botones */
 
 Efecto del mouse 
 .btn:hover {
-    color: pink
-    background: pink /* Cambia a un azul cian vibrante y moderno */
+    color:  #ffffff;
+    background: #FFC0CB /* Cambia a un azul cian vibrante y moderno */
     border-color: #22d3ee;
     transform: translateY(-3px); /* El botón se eleva sutilmente */
     box-shadow: 0 8px 20px rgba(6, 182, 212, 0.4); /* Resplandor brillante neón */
